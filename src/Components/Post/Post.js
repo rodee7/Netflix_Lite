@@ -13,7 +13,7 @@ function Post(props) {
       }).catch(err => {
           alert('Network Error')
       })
-    }, [])
+    }, [props.url])
     
     const opts = {
         height: '390',
